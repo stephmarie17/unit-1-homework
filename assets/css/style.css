@@ -16,29 +16,25 @@ header {
     margin-top: 0;
     text-align: center;
     background-color: #ffffff;
-    border-color: #cccc;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     padding: 20px;
-    margin-top: 00px;
+    margin-top: 0;
     width: 25%;
     background-color: #4aaaa5;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-bottom: #cccc;
-    position: relative;
-}
-
-#box-1 {
-    top: 0;
-    left: 0;
+    float: left;
+    margin-left: 16%;
 }
 
 h2 {
     padding: 20px;
     margin-bottom: 0px;
+    margin-top: 20px;
     margin: 0 auto;
     max-width: 980px;
     border-bottom-style: solid;
@@ -67,6 +63,7 @@ a:hover {
     background-color: white;
     list-style-type: none;
     margin-left: 50%;
+    margin-top: 0;
     padding: 0;
     position: relative;
 }
@@ -76,6 +73,11 @@ a:hover {
     font-size: 18px;
     padding: 20px;
     text-align: center;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
 }
 
 .bio {
@@ -138,9 +140,13 @@ footer {
     margin: 10px;
     text-align: center;
     font-size: 10px;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    background-color: #666666;
     position: sticky;
 }
 
 .box-2 {
     bottom: 0;
+    width: 100%;
 }
