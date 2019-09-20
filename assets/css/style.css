@@ -117,7 +117,7 @@ input[type=text] {
 
 textarea {
     width: 100%;
-    box-sizing: borer-box;
+    box-sizing: border-box;
 }
 
 .portfolio-body {
@@ -146,6 +146,7 @@ footer {
     border-top: 8px solid  #4aaaa5;
     background-color: #666666;
     position: sticky;
+    clear: both;
 }
 
 .box-2 {
