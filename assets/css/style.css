@@ -18,18 +18,23 @@ header {
     text-align: center;
     background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
+    color: #cccc;
 }
 
 h1 {
     padding: 20px;
-    margin-top: 18px;
-    margin-left: 16%;
-    width: 25%;
-    height: 100%;
     background-color: #4aaaa5;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     float: left;
+}
+
+#box-1 {
+    min-width: 25%;
+    height: 100%;
+    float: left;
+    margin-left: 16%;
+    margin-top: 18px;
 }
 
 h2 {
@@ -149,7 +154,7 @@ footer {
     clear: both;
 }
 
-.box-2 {
+#box-2 {
     bottom: 0;
     width: 100%;
 }
