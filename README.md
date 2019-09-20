@@ -7,9 +7,9 @@ A site including an about me page, a portfolio page, and a contact form page. Th
 
 ## Installation
 
-Access the code through Git Lab repository link. Access the live site through Git Pages link.
+Access the code through GitHub repository link. Access the live site through GitPages link.
 
 ## Usage
 
-
+Use the GitHub repository to access html files, css file, and image assets to check the code. Use the live site to see the code in action and verify that the site meets the style guidelines.
 
